@@ -138,7 +138,7 @@ class Game:
                 self.bullets,
                 self.meteors,
                 True,  # remove o tiro
-                False  # NÃO remove o meteoro
+                False  # não remove o meteoro
             )
 
             for bullet, meteors in hits.items():
